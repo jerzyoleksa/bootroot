@@ -14,6 +14,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    # ← TO JEST NAJWAŻNIEJSZE
+    permissions:
+      contents: read
+      packages: write     # ← to pozwala na tworzenie i pushowanie obrazów do GHCR
+
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
