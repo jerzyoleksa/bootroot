@@ -110,6 +110,8 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
+                    <mainClass>org.example.module3.Module3Application</mainClass>
+
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
