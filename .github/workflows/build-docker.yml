@@ -14,10 +14,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    # ← TO JEST NAJWAŻNIEJSZE
+    # most important
     permissions:
       contents: read
-      packages: write     # ← to pozwala na tworzenie i pushowanie obrazów do GHCR
+      packages: write     # allows to create and push images to GHCR
 
 
     steps:
